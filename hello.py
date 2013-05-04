@@ -1,3 +1,5 @@
+import os
+
 from flask import Flask
 from flask.ext import restful
 from flask.ext.sqlalchemy import SQLAlchemy
