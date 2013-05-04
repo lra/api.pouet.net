@@ -28,10 +28,11 @@ Yes, help me !
 ### Setup a working env
 
 ```bash
-brew install heroku-toolbelt
-brew install python
 git clone git@github.com:lra/pouet-api.git
 git remote add heroku git@heroku.com:pouet-api.git
+brew install heroku-toolbelt
+brew install python
+pip install -r pouet-api/requirements.txt
 ```
 
 ### Push the source code
