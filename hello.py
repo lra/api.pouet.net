@@ -17,6 +17,8 @@ api = restful.Api(app)
 
 
 class Prod(db.Model):
+    __tablename__ = 'prods'
+
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(255))
     download = db.Column(db.String(255))
