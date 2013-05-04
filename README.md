@@ -14,19 +14,19 @@ Returns:
 
 ```json
 {
-    id: 1337,
-    name: "Awesome Stuff",
-    download_url: "http://www.scene.org/this/is/leet.zip",
-    groups: [
+    "id": 1337,
+    "name": "Awesome Stuff",
+    "download_url": "http://www.scene.org/this/is/leet.zip",
+    "groups": [
         {
-            id: 42,
-            name: "Some Dudes",
-            website_url: "http://some.dud.es/"
+            "id": 42,
+            "name": "Some Dudes",
+            "website_url": "http://some.dud.es/"
         },
         {
-            id: 666,
-            name: "Bad guyz",
-            website_url: null
+            "id": 666,
+            "name": "Bad guyz",
+            "website_url": null
         },
     ]
 }
@@ -42,9 +42,9 @@ Returns:
 
 ```json
 {
-    id: 42,
-    name: "Some Dudes",
-    website_url: "http://some.dud.es/"
+    "id": 42,
+    "name": "Some Dudes",
+    "website_url": "http://some.dud.es/"
 }
 ```
 
