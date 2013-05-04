@@ -5,9 +5,9 @@ import models
 
 class ProdResource(restful.Resource):
     def get(self, prod_id):
-        p = models.Prod.query.filter_by(id=prod_id).first()
+        prod = models.Prod.query.get(prod_id)
 
-        resp = {'name': p.name,
-                'download': p.download}
+        resp = {'name': prod.name,
+                'download': prod.download}
 
         return resp
