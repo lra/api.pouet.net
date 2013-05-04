@@ -6,7 +6,7 @@ For now, the API lives at http://pouet-api.herokuapp.com/
 
 ## Use this stuff
 
-### Hello Word
+### Get some demo info
 
 `GET /prod/:id`
 
