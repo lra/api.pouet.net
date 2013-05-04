@@ -22,6 +22,7 @@ api = restful.Api(app)
 
 # Add the resources handled by the API
 api.add_resource(resources.ProdResource, '/prod/<int:prod_id>')
+api.add_resource(resources.GroupResource, '/group/<int:group_id>')
 
 # Run the main app when not imported
 if __name__ == '__main__':
