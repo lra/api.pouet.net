@@ -2,17 +2,24 @@
 
 Awesome ! Welcome dude !
 
+For now, the API lives at http://pouet-api.herokuapp.com/
+
 ## Use this stuff
 
 ### Hello Word
 
-`GET /`
+`GET /prod/:id`
 
 Returns:
 
 ```json
-{"hello": "world"}
+{
+    "name": "Awesome Stuff",
+    "download": "http://www.scene.org/this/is/leet.zip"
+}
 ```
+
+Example: http://pouet-api.herokuapp.com/prod/1221
 
 ## Contribute to this shit
 
