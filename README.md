@@ -14,12 +14,39 @@ Returns:
 
 ```json
 {
-    "name": "Awesome Stuff",
-    "download": "http://www.scene.org/this/is/leet.zip"
+    id: 1337,
+    name: "Awesome Stuff",
+    download_url: "http://www.scene.org/this/is/leet.zip",
+    groups: [
+        {
+            id: 42,
+            name: "Some Dudes",
+            website_url: "http://some.dud.es/"
+        },
+        {
+            id: 666,
+            name: "Bad guyz",
+            website_url: null
+        },
+    ]
 }
 ```
 
 Example: http://pouet-api.herokuapp.com/prod/1221
+
+### Get some group info
+
+`GET /group/:id`
+
+Returns:
+
+```json
+{
+    id: 42,
+    name: "Some Dudes",
+    website_url: "http://some.dud.es/"
+}
+```
 
 ## Contribute to this shit
 
