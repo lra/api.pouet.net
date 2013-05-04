@@ -48,6 +48,8 @@ Returns:
 }
 ```
 
+Example: http://pouet-api.herokuapp.com/group/123
+
 ## Contribute to this shit
 
 Yes, help me !
