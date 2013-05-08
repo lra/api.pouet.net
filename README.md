@@ -2,7 +2,9 @@
 
 Awesome ! Welcome dude !
 
-For now, the API lives at http://pouet-api.herokuapp.com/
+For now, the API lives at http://api.pouet.net/
+This is just a proof of concept, nothing serious, play with it, don't count on
+it yet.
 
 ## Use this stuff
 
@@ -32,7 +34,7 @@ Returns:
 }
 ```
 
-Example: http://pouet-api.herokuapp.com/prod/1221
+Example: http://api.pouet.net/prod/1221
 
 ### Get some group info
 
@@ -48,7 +50,7 @@ Returns:
 }
 ```
 
-Example: http://pouet-api.herokuapp.com/group/123
+Example: http://api.pouet.net/group/123
 
 ## Contribute to this shit
 
